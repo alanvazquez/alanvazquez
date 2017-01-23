@@ -11,20 +11,38 @@
 /* General Content
 -------------------------------------------- */
 
-html {
-  
+body {  
   font-size: 16px;
 }
 
 /* Typography
 -------------------------------------------- */
 
+.print {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+}
+
 .cursive  {
-  font-size: 2rem;
+  font-size: 2em;
+}
+
+.logo-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  display: block;
 }
 
 /* Header & Navigation
 -------------------------------------------- */
+
+.logo {
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
 
 /* Images & Media
 -------------------------------------------- */
@@ -35,6 +53,10 @@ html {
 
 /* Footer
 -------------------------------------------- */
+
+.footer-text {
+  text-align: center;
+}
 
 /* Media Queries
 -------------------------------------------- */
